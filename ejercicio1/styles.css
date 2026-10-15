@@ -3,3 +3,13 @@
     font-weight: bold;
     background-color: lightgray;
 }
+
+main{
+    background-color: #f0f0f0;
+    padding: 20px;
+    width:80%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    justify-content: center;
+    
+}

@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicando operadores</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi primera tienda con JavaScript</h1>
+        <p>
+            Vamos a utilizar variables y operadores para
+            calcular el importe de una compra y comprobar
+            si el cliente tiene derecho a descuentos.
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Calcula el precio de la compra</h2>
+
+            <p>Nuestro cliente ha comprado:</p>
+
+            <ul>
+                <li>2 pantalones de 30 € cada uno.</li>
+                <li>1 camiseta de 15 €.</li>
+            </ul>
+
+            <p>
+                Declara las variables necesarias en JavaScript
+                y calcula el importe total de los productos.
+            </p>
+
+            <p class="resultado">
+                El importe de la compra es:
+                <strong><span id="total"></span> €</strong>
+            </p>
+        </section>
+
+        <section>
+            <h2>2. Añade los gastos de envío</h2>
+
+            <p>
+                Nuestra tienda cobra 5 € de gastos de envío
+                por cada pedido.
+            </p>
+
+            <p>
+                Calcula el precio total sumando los gastos
+                de envío al importe de los productos.
+            </p>
+
+            <p class="resultado">
+                El total con gastos de envío es:
+                <strong><span id="totalConEnvio"></span> €</strong>
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Comprueba si tiene descuento</h2>
+
+            <p>
+                Nuestra tienda ofrece un descuento a los
+                clientes que cumplan al menos una de
+                estas condiciones:
+            </p>
+
+            <ul>
+                <li>
+                    El importe de los productos supera los 100 €,
+                    sin contar los gastos de envío.
+                </li>
+                <li>
+                    El cliente compra más de 3 artículos
+                    en total.
+                </li>
+            </ul>
+
+            <p>
+                Utiliza operadores comparativos y lógicos
+                para comprobar si tiene derecho al descuento.
+            </p>
+
+            <p class="resultado">
+                ¿Tiene derecho al descuento?
+                <strong><span id="descuento"></span></strong>
+            </p>
+        </section>
+
+        <section>
+            <h2>4. Comprueba el descuento adicional</h2>
+
+            <p>
+                La tienda ofrece otro descuento especial
+                cuando se cumplen las dos condiciones:
+            </p>
+
+            <ul>
+                <li>
+                    El cliente pertenece al club de fidelidad.
+                </li>
+                <li>
+                    La compra se realiza un viernes.
+                </li>
+            </ul>
+
+            <p>Para esta compra sabemos que:</p>
+
+            <ul>
+                <li>El cliente pertenece al club de fidelidad.</li>
+                <li>Hoy es viernes.</li>
+            </ul>
+
+            <p>
+                Declara las variables booleanas necesarias
+                y comprueba si tiene derecho al descuento.
+            </p>
+
+            <p class="resultado">
+                ¿Tiene derecho al descuento adicional?
+                <strong>
+                    <span id="descuentoAdicional"></span>
+                </strong>
+            </p>
+        </section>
+
+        <section>
+            <h2>5. Comprueba tu programa</h2>
+
+            <p>
+                Crea un archivo llamado script.js y escribe
+                el código necesario para:
+            </p>
+
+            <ol>
+                <li>Declarar las variables.</li>
+                <li>Realizar los cálculos matemáticos.</li>
+                <li>Comprobar las condiciones de descuento.</li>
+                <li>
+                    Mostrar los resultados en los elementos
+                    HTML correspondientes utilizando
+                    getElementById() y textContent.
+                </li>
+                <li>
+                    Comprobar los resultados en la consola
+                    mediante console.log().
+                </li>
+            </ol>
+
+            <p>
+                Los importes deben mostrarse como números
+                y los descuentos como true o false.
+            </p>
+
+            <p>
+                Importante: todavía no tienes que calcular
+                cuánto dinero se descuenta.
+                Solo debes comprobar si el cliente cumple
+                las condiciones de cada promoción.
+            </p>
+        </section>
+        <section>
+            <h2>Para seguir practicando</h2>
+
+            <p>
+                Modifica las cantidades, los precios y los datos del cliente para conseguir que los dos descuentos devuelvan true. Después, cambia únicamente un dato para conseguir que el descuento adicional devuelva false.
+            </p>
+        </section>
+        <section>
+            <h2>6. Comprueba el envío gratuito</h2>
+
+            <p>
+                Comprueba si tu compra tiene derecho a envío gratuito.
+            </p>
+
+            <p class="resultado">
+                <span id="envio"></span>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
